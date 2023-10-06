@@ -25,7 +25,7 @@ This library contains files with functions to calculate area and perimeter of so
         circle = 28.274333882308138
 - perimeter(r)
 Принимает число r, возвращает длину окружности радиуса r в виде десятичной дроби, вычисленную по формуле 2 * pi * r
-    Пример вызова:
+    >Пример вызова:
         circle_len = perimeter(3)
     Результат:
         circle_len = 18.84955592153876
