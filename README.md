@@ -1,76 +1,88 @@
-# Main information
-This library contains files with functions to calculate area and perimeter of some geometric figures: circle, rectangle, square, triangle
+# Основная информация
+Здесь содержатся файлы с функциями для вычисления площади и периметра некоторых фигур: круга, прямоугольника, квадрата, треугольника
 
-# Math formulas
-## Area
+# Математические формулы
+## Площадь
 - Circle: S = πR²
 - Rectangle: S = ab
 - Square: S = a²
 - Triangle: S = a * h / 2 !
 
-## Perimeter
+## Периметр
 - Circle: P = 2πR
 - Rectangle: P = 2a + 2b
 - Square: P = 4a
 - Triangle: P = a + b + c !
 
-# Functions
-## Circle
-
-- area(r)
+# Функции в файлах
+## circle.py
+- area(r)\
 Принимает число r, возвращает площадь круга радиуса r в виде десятичной дроби, вычисленную по формуле pi * r * r
-    Пример вызова:
-        circle = area(3)
-    Результат:
+    >Пример вызова:\
+        circle = area(3)\
+    Результат:\
         circle = 28.274333882308138
-- perimeter(r)
+- perimeter(r)\
 Принимает число r, возвращает длину окружности радиуса r в виде десятичной дроби, вычисленную по формуле 2 * pi * r
-    >Пример вызова:
-        circle_len = perimeter(3)
-    Результат:
+    >Пример вызова:\
+        circle_len = perimeter(3)\
+    Результат:\
         circle_len = 18.84955592153876
 
-## Rectangle
-
-- area(a, b)
+## rectangle.py
+- area(a, b)\
 Принимает два числа a и b, возвращает площадь прямоугольника co сторонами a и b, вычисленную по формуле a * b 
-    Пример вызова:
-        rec_area = area(7, 8)
-    Результат:
-        rec_area = 56
-- perimeter(r)
+    >Пример вызова:\
+        rec_area = area(7, 8)\
+    Результат:\
+        rec_area = 56\
+- perimeter(r)\
 Принимает два числа a и b, возвращает периметр прямоугольника co сторонами a и b, вычисленный по формуле 2 * (a + b)
-    Пример вызова:
-        rec_area = area(7, 8)
-    Результат:
-        rec_area = 30
+    >Пример вызова:\
+        rec_area = area(7, 8)\
+    Результат:\
+        rec_area = 30\
 
-## Square
-
-- area(a)
+## square.py
+- area(a)\
 Принимает число a, возвращает площадь квадрата co стороной a, вычисленную по формуле a * a 
-    Пример вызова:
-        sq_area = area(10)
-    Результат:
-        sq_area = 100
-- perimeter(a)
+    >Пример вызова:\
+        sq_area = area(10)\
+    Результат:\
+        sq_area = 100\
+- perimeter(a)\
 Принимает число a, возвращает периметр квадрата co стороной a, вычисленный по формуле 4 * a 
-    Пример вызова:
-        sq_area = area(10)
-    Результат:
-        sq_area = 40
+    >Пример вызова:\
+        sq_area = area(10)\
+    Результат:\
+        sq_area = 40\
 
-## Triangle
-
-- area(a, h)
+## triangle.py
+- area(a, h)\
 Принимает числа a и h, возвращает площадь треугольника co стороной a и высотой h, проведенной к этой стороне, вычисленную по формуле a * h / 2
-    Пример вызова:
-        tr_area = area(10, 6)
-    Результат:
-        tr_area = 30
-- area(a, b, c)
+    >Пример вызова:\
+        tr_area = area(10, 6)\
+    Результат:\
+        tr_area = 30\
+- area(a, b, c)\
 Принимает числа a, b, c, возвращает периметр треугольника co сторонами a, b и c, вычисленный по формуле a + b + c
-    Пример вызова:
-        tr_perim = area(3, 4, 5)
-    Результат:
+    >Пример вызова:\
+        tr_perim = area(3, 4, 5)\
+    Результат:\
         tr_perim = 12
+
+# История изменений
+- commit 284c019b82c3a916f7f74fa75a377cc242c025bf \
+Author: Fofiy <arbraarbra090@gmail.com>
+Date: Sep 17 17:21:07 2023 
+> added rectangle.py
+
+- commit d078c8d9ee6155f3cb0e577d28d337b791de28e2 \
+Author: smartiqa <info@smartiqa.ru>
+Date: Mar 4 14:55:29 2021
+> L-03: Docs added
+
+- commit 8ba9aeb3cea847b63a91ac378a2a6db758682460 \
+Author: smartiqa <info@smartiqa.ru>
+Date: Mar 4 14:54:08 2021
+> L-03: Circle and square added
