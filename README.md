@@ -86,3 +86,33 @@ Date: Mar 4 14:55:29 2021
 Author: smartiqa <info@smartiqa.ru>
 Date: Mar 4 14:54:08 2021
 > L-03: Circle and square added
+
+# Тестирование
+> Проведенные тесты находятся в файле testing.py
+
+> test 13.11.2023
+>- ERROR: test_some_string_data (main.CircleTests)\
+ERROR: test_string_of_digits_area (main.CircleTests)\
+ERROR: test_string_of_digits_perimeter (main.CircleTests)\
+ERROR: test_some_str_perimeter (main.RectangleTests)\
+ERROR: test_str_of_digits_perimeter (main.RectangleTests)\
+ERROR: test_some_str_area (main.SquareTests)\
+ERROR: test_str_of_digits_area (main.SquareTests)\
+ERROR: test_some_str_area (main.TriangleTests)\
+ERROR: test_some_str_perimeter (main.TriangleTests)
+>
+> 
+>- FAIL: test_negative_area (main.CircleTests)\
+FAIL: test_negative_perimeter (main.CircleTests)\
+FAIL: test_negative_area (main.RectangleTests)\
+FAIL: test_negative_perimeter (main.RectangleTests)\
+FAIL: test_some_str_area (main.RectangleTests)\
+FAIL: test_str_of_digits_area (main.RectangleTests)\
+FAIL: test_negative_area (main.SquareTests)\
+FAIL: test_negative_perimeter (main.SquareTests)\
+FAIL: test_some_str_perimeter (main.SquareTests)\
+FAIL: test_str_of_digits_perimeter (main.SquareTests)\
+FAIL: test_negative_area (main.TriangleTests)\
+FAIL: test_negative_perimeter (main.TriangleTests)\
+FAIL: test_str_of_digits_area (main.TriangleTests)\
+FAIL: test_str_of_digits_perimeter (main.TriangleTests)
